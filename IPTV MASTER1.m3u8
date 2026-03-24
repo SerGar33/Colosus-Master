@@ -74,7 +74,7 @@ https://7.innovatestream.pe:19360/ecuadortest/ecuadortest.m3u8
 #EXTINF:-1 tvg-id="ZaracayTV.ec" tvg-logo="https://i.imgur.com/6q0Gp9R.png" group-title="GENERAL",Zaracay TV
 https://video2.makrodigital.com/zaracay/zaracay/playlist.m3u8
 #EXTINF:-1 tvg-id="VitoTVO.ec" tvg-logo="https://vitotvo.com/wp-content/uploads/2023/12/LOGO-DV.png" group-title="GENERAL",VITO TVO
-https://live-ak.vimeocdn.com/exp=1773169865~acl=%2F5fd03db9-dc93-4015-9a29-ddb77a305bb0_fmp4%2F%2A~hmac=a1264f01ce55ffc836de561fe120bede95c4eb718f640d7bffcd8fa8ac0f85bf/5fd03db9-dc93-4015-9a29-ddb77a305bb0_fmp4/avc/hls.m3u8
+https://live-ak.vimeocdn.com/exp=1774394707~acl=%2F2079aa45-6081-47be-82dd-d177f256047c_fmp4%2F%2A~hmac=b16ad88a35a1d9dffd68bb18466580d23bf3920aa8f86b72208b9611b93d4242/2079aa45-6081-47be-82dd-d177f256047c_fmp4/aac/256000/en/chunklist.m3u8
 #EXTINF:0 tvg-id="TVCHILE.int" tvg-logo="https://i0.wp.com/directostv.teleame.com/wp-content/uploads/2016/05/TV-Chile-en-vivo-Online-1.png" group-title="GENERAL", TVCHILE
 http://190.111.16.106:40000/play/a039/index.m3u8
 #EXTINF:-1 tvg-id="DISTRITO COMEDIA.mex" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6b/DistritoComediaLOGO2018.png" group-title="GENERAL",DISTRITO COMEDIA
@@ -98,7 +98,7 @@ http://190.0.241.181:8000/play/a0cu/index.m3u8
 
 =================================================================================================NOTICIAS===================================================================================
 #EXTINF:-1 tvg-id="TVLegislativa.ec" tvg-logo="https://i.imgur.com/9eeLsgg.png" group-title="NOTICIAS",TV Legislativa
-http://181.198.32.153:8080/hls/stream.m3u8
+https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Telesur.Ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/319px-TeleSUR-Logo.svg.png" group-title="NOTICIAS", TELESUR
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://iconape.com/wp-content/png_logo_vector/chilevision-logo.png" group-title="NOTICIAS",AMERICA TV
