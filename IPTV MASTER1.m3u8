@@ -85,14 +85,18 @@ http://45.5.119.43:4000/play/a0hy/index.m3u8
 181.78.8.199:8000/play/a0az/index.m3u8
 #EXTINF:-1 tvg-id="CARACOL.col" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Caracol_TV_HD_logo.svg/2048px-Caracol_TV_HD_logo.svg.png" group-title="NOVELAS",CARACOL
 181.78.8.199:8000/play/a08s/index.m3u8
-#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="https://iconape.com/wp-content/png_logo_vector/chilevision-logo.png" group-title="GENERAL",TVN
+#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="https://es.wikipedia.org/wiki/Archivo:Logotipo_de_Televisi%C3%B3n_Nacional_de_Chile_%282016-2020%29.png" group-title="GENERAL",TVN
 https://marine2.miplay.cl/tvnchile/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Chilevision.cl" tvg-logo="https://iconape.com/wp-content/png_logo_vector/chilevision-logo.png" group-title="GENERAL",CHILEVISION
 https://list.iptvcat.com/my_list/s/8d1b64e9b1312c57fca31193a9a29f1c.m3u8
 #EXTINF:-1 tvg-id="Telefe.arg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" group-title="GENERAL",TELEFE
 http://45.238.54.67:8000/play/b02e/index.m3u8
+#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="GENERAL",AMERICA TV
+http://45.238.54.67:8000/play/a00i/index.m3u8
 #EXTINF:0 tvg-id="ANTENA3.es" tvg-logo="https://1000marcas.net/wp-content/uploads/2021/04/Antena-3-logo.png" group-title="GENERAL", ANTENA 3
 http://190.0.241.181:8000/play/a0aj/index.m3u8
+#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_Canal_13_200_8.png/624px-Logo_Canal_13_200_8.png" group-title="GENERAL", EL 13 ARGENTINA
+http://45.238.54.67:8000/play/b02f/index.m3u8
 #EXTINF:0 tvg-id="SUN.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sun_Channel_Logo_2022.webp/500px-Sun_Channel_Logo_2022.webp.png" group-title="GENERAL", SUN CHANNEL
 http://190.0.241.181:8000/play/a0cu/index.m3u8
 
@@ -101,16 +105,12 @@ http://190.0.241.181:8000/play/a0cu/index.m3u8
 https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Telesur.Ve" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/319px-TeleSUR-Logo.svg.png" group-title="NOTICIAS", TELESUR
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
-#EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://iconape.com/wp-content/png_logo_vector/chilevision-logo.png" group-title="NOTICIAS",AMERICA TV
-http://45.238.54.67:8000/play/a00i/index.m3u8
 #EXTINF:0 tvg-id="FRANCE24.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8a/France24.png" group-title="NOTICIAS", FRANCE 24
 https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="DW.eu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/1200px-Deutsche_Welle_Logo.svg.png" group-title="NOTICIAS",DW
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8
 #EXTINF:-1 tvg-id="EURONEWS.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/800px-Euronews._2016_alternative_logo.png" group-title="NOTICIAS",EURO NEWS
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8?ads.vf=j3Z4oxuHXXK
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_Canal_13_200_8.png/624px-Logo_Canal_13_200_8.png" group-title="GENERAL", EL 13 ARGENTINA
-http://45.238.54.67:8000/play/b02f/index.m3u8
 #EXTINF:0 tvg-id="TSI.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TSi_logo.png/1034px-TSi_logo.png" group-title="NOTICIAS", TSI 
 http://181.189.243.251:8000/play/a0us/index.m3u8
 #EXTINF:-1 tvg-id="CBS.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/CBS_logo.svg/800px-CBS_logo.svg.png" group-title="NOTICIAS", CBS
@@ -162,7 +162,7 @@ https://vid2.ecuamedia.net/educatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="CiracuTV.ec" tvg-logo="https://i.imgur.com/mkf2TJ6.png" group-title="EDUCACION", Ciracu TV
 https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8
 #EXTINF:0 tvg-id="ANIMAL PLANET.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/2560px-2018_Animal_Planet_logo.svg.png" group-title="EDUCACION", ANIMAL PLANET HD
-http://190.60.38.114:1010/play/a06t/index.m3u8
+http://45.238.54.67:8000/play/a04f/index.m3u8
 #EXTINF:0tvg-id="DISCOVERY THEATHER.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/1280px-2015_Discovery_theater_HD_logo.svg.png" group-title="EDUCACION", DISCOVERY THEATHER HD
 http://181.189.243.251:8000/play/a0sr/index.m3u8
 #EXTINF:11 tvg-id="DISCOVERY.int" tvg-logo="https://wallpapers.com/images/high/discovery-channel-logo-fmik7rr5juae040s-fmik7rr5juae040s.png" group-title="EDUCACION", DISCOVERY CHANNEL HD
@@ -180,7 +180,7 @@ http://themyst.icu:826/SourPatchKid/nlnE4DVQUs/106764
 #EXTINF:0 tvg-id="H2.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/History2Logo2019.png/636px-History2Logo2019.png" group-title="EDUCACION", HISTORY 2
 https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HISTORY2/index.m3u8
 #EXTINF:0 tvg-id="NATGEO.int" tvg-logo="https://wallpapers.com/images/hd/national-geographic-logo-3kerqur3d78tp1u4-3kerqur3d78tp1u4.png" group-title="EDUCACION", NAT GEO HD
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/NAT_GEO/index.m3u8
+http://45.238.54.67:8000/play/a01b/index.m3u8
 #EXTINF:0 tvg-id="TLC.int" tvg-logo="https://i0.wp.com/prensaescenario.com/wp-content/uploads/2023/10/tlc-logo.png" group-title="EDUCACION", TLC
 http://190.0.241.181:8000/play/a0c9/index.m3u8
 #EXTINF:0 tvg-id="HOME&HEALTH.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Discovery_Home_%26_Health_logo.svg/800px-Discovery_Home_%26_Health_logo.svg.png" group-title="EDUCACION", H&H HD
@@ -243,9 +243,9 @@ http://181.78.8.199:8000/play/a0b2/index.m3u8
 http://181.78.8.199:8000/play/a0b3/index.m3u8
 #EXTINF:0 tvg-id="ESPN6.int" tvg-logo="" group-title="DEPORTES", ESPN 6 HD
 http://181.78.8.199:8000/play/a07g/index.m3u8
-#EXTINF:0 tvg-id="ESPN.int" tvg-logo="" group-title="DEPORTES", ESPN HD
+#EXTINF:0 tvg-id="ESPN.int" tvg-logo="https://w7.pngwing.com/pngs/2/447/png-transparent-espn-logo-television-the-walt-disney-company-news-presenter-golf-miscellaneous-television-company-thumbnail.png" group-title="DEPORTES", ESPN HD
 http://181.78.8.199:8000/play/a08y/index.m3u8
-#EXTINF:0 tvg-id="A&E.int" tvg-logo="" group-title="DEPORTES", ESPN HD
+#EXTINF:0 tvg-id="A&E.int" tvg-logo="https://w7.pngwing.com/pngs/318/371/png-transparent-espn-television-espn-extra-high-definition-video-lam-radio-hd-television-text-logo-thumbnail.png" group-title="DEPORTES", ESPN HD
 http://181.189.243.251:8000/play/a0un/index.m3u8
 #EXTINF:0 tvg-id="TYC.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/777px-TyC_Sports_logo.svg.png" group-title="DEPORTES", TYC
 http://181.189.243.251:8000/play/a0uk/index.m3u8
@@ -296,11 +296,11 @@ http://181.189.243.251:8000/play/a0vi/index.m3u8
 #EXTINF:0 tvg-id="HBO2.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/HBO2_logo.png" group-title="PELICULAS & SERIES", HBO2 HD
 http://181.189.243.251:8000/play/a0os/index.m3u8
 #EXTINF:11 tvg-id="PARAMOUNT.int" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/5/59/Paramount_Channel.svg/556px-Paramount_Channel.svg.png" group-title="PELICULAS & SERIES",PARAMOUNT HD
-http://190.0.241.181:8000/play/a0av/index.m3u8
+http://45.238.54.67:8000/play/a02r/index.m3u8
 #EXTINF:0 tvg-id="SONY.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/Sony_Channel_Logo.png" group-title="PELICULAS & SERIES", SONY HD
-http://190.0.241.181:8000/play/a0b3/index.m3u8
+http://45.238.54.67:8000/play/a00q/index.m3u8
 #EXTINF:0 tvg-id="SPACE.int" tvg-logo="https://logos-world.net/wp-content/uploads/2023/03/Space-Logo.png" group-title="PELICULAS & SERIES", SPACE
-http://190.0.241.181:8000/play/a0b7/index.m3u8
+http://45.238.54.67:8000/play/a02p/index.m3u8
 #EXTINF:0 tvg-id="STAR CHANNEL.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Star_Channel_2021.png/800px-Star_Channel_2021.png" group-title="PELICULAS & SERIES", STAR CHANNEL HD
 http://190.0.241.181:8000/play/a0bn/index.m3u8
 #EXTINF:0 tvg-id="SONY MOVIES.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/598px-Sony_Movies_Logo.svg.png" group-title="PELICULAS & SERIES", SONY MOVIES HD
