@@ -85,7 +85,7 @@ http://45.5.119.43:4000/play/a0hy/index.m3u8
 181.78.8.199:8000/play/a0az/index.m3u8
 #EXTINF:-1 tvg-id="CARACOL.col" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Caracol_TV_HD_logo.svg/2048px-Caracol_TV_HD_logo.svg.png" group-title="NOVELAS",CARACOL
 181.78.8.199:8000/play/a08s/index.m3u8
-#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="https://es.wikipedia.org/wiki/Archivo:Logotipo_de_Televisi%C3%B3n_Nacional_de_Chile_%282016-2020%29.png" group-title="GENERAL",TVN
+#EXTINF:-1 tvg-id="TVN.cl" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Television-Nacional-de-Chile-Logo-2016.png" group-title="GENERAL",TVN
 https://marine2.miplay.cl/tvnchile/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Chilevision.cl" tvg-logo="https://iconape.com/wp-content/png_logo_vector/chilevision-logo.png" group-title="GENERAL",CHILEVISION
 https://list.iptvcat.com/my_list/s/8d1b64e9b1312c57fca31193a9a29f1c.m3u8
@@ -93,9 +93,9 @@ https://list.iptvcat.com/my_list/s/8d1b64e9b1312c57fca31193a9a29f1c.m3u8
 http://45.238.54.67:8000/play/b02e/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="GENERAL",AMERICA TV
 http://45.238.54.67:8000/play/a00i/index.m3u8
-#EXTINF:0 tvg-id="ANTENA3.es" tvg-logo="https://static.wikia.nocookie.net/logofan/images/e/ed/A3cr.png/revision/latest/scale-to-width-down/250?cb=20241120001050&path-prefix=es" group-title="GENERAL", ANTENA 3
+#EXTINF:0 tvg-id="ANTENA3.es" tvg-logo="https://1000marcas.net/wp-content/uploads/2021/04/Antena-3-Logo.png" group-title="GENERAL", ANTENA 3
 http://190.0.241.181:8000/play/a0aj/index.m3u8
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_Canal_13_200_8.png" group-title="GENERAL", EL 13 ARGENTINA
+#EXTINF:-1  tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9npKqQqEHCnvXYk3-ymB6CRTFIsgFf5ZTHv7__mHRGebgMOu_gUVopYTRsrJrqXnCAA1Tn0aQqrqit2YoNXCWCUXabKXlhMULTlfc7thdoF6RmJ_B80H5u5Q1FQ9x_X64U6zKRMwXC1U/s1600/eltrece-hd.png group-title="GENERAL", EL 13 ARGENTINA
 http://45.238.54.67:8000/play/b02f/index.m3u8
 #EXTINF:0 tvg-id="SUN.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sun_Channel_Logo_2022.webp/500px-Sun_Channel_Logo_2022.webp.png" group-title="GENERAL", SUN CHANNEL
 http://190.0.241.181:8000/play/a0cu/index.m3u8
@@ -161,7 +161,7 @@ http://themyst.icu:826/SourPatchKid/nlnE4DVQUs/106862
 https://vid2.ecuamedia.net/educatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="CiracuTV.ec" tvg-logo="https://i.imgur.com/mkf2TJ6.png" group-title="EDUCACION", Ciracu TV
 https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8
-#EXTINF:0 tvg-id="ANIMAL PLANET.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/2560px-2018_Animal_Planet_logo.svg.png" group-title="EDUCACION", ANIMAL PLANET HD
+#EXTINF:0 tvg-id="ANIMAL PLANET.int" tvg-logo="https://e7.pngegg.com/pngimages/694/46/png-clipart-animal-planet-logo-icons-logos-emojis-iconic-brands.png" group-title="EDUCACION", ANIMAL PLANET HD
 http://45.238.54.67:8000/play/a04f/index.m3u8
 #EXTINF:0tvg-id="DISCOVERY THEATHER.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/1280px-2015_Discovery_theater_HD_logo.svg.png" group-title="EDUCACION", DISCOVERY THEATHER HD
 http://181.189.243.251:8000/play/a0sr/index.m3u8
