@@ -161,7 +161,7 @@ http://themyst.icu:826/SourPatchKid/nlnE4DVQUs/106862
 https://vid2.ecuamedia.net/educatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="CiracuTV.ec" tvg-logo="https://i.imgur.com/mkf2TJ6.png" group-title="EDUCACION", Ciracu TV
 https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8
-#EXTINF:0 tvg-id="ANIMAL PLANET.int" tvg-logo="https://www.nicepng.com/png/detail/831-8310067_bindi-the-otters-new-animal-planet-logo.png" group-title="EDUCACION", ANIMAL PLANET HD
+#EXTINF:0 tvg-id="ANIMAL PLANET.int" tvg-logo="https://i0.wp.com/invermedia.com/wp-content/uploads/2025/01/Animal-Planet-Blanco-1.png" group-title="EDUCACION", ANIMAL PLANET HD
 http://45.238.54.67:8000/play/a04f/index.m3u8
 #EXTINF:0tvg-id="DISCOVERY THEATHER.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015_Discovery_theater_HD_logo.svg/1280px-2015_Discovery_theater_HD_logo.svg.png" group-title="EDUCACION", DISCOVERY THEATHER HD
 http://181.189.243.251:8000/play/a0sr/index.m3u8
