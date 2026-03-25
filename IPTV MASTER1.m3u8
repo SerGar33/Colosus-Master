@@ -109,7 +109,7 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 https://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="DW.eu" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Deutsche_Welle_Logo.svg/1200px-Deutsche_Welle_Logo.svg.png" group-title="NOTICIAS",DW
 https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/stream05/streamPlaylist.m3u8
-#EXTINF:-1 tvg-id="EURONEWS.es" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Euronews._2016_alternative_logo.png/800px-Euronews._2016_alternative_logo.png" group-title="NOTICIAS",EURO NEWS
+#EXTINF:-1 tvg-id="EURONEWS.es" tvg-logo="https://images.fubo.tv/station_logos/euronews23_m.png" group-title="NOTICIAS",EURO NEWS
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/euronews-spa/euronews-es.m3u8?ads.vf=j3Z4oxuHXXK
 #EXTINF:0 tvg-id="TSI.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TSi_logo.png/1034px-TSi_logo.png" group-title="NOTICIAS", TSI 
 http://181.189.243.251:8000/play/a0us/index.m3u8
