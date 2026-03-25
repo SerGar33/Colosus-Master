@@ -235,15 +235,15 @@ http://181.189.243.251:8000/play/a0nu/index.m3u8
 http://181.189.243.251:8000/play/a0q5/index.m3u8
 
 ================================================================================DEPORTES================================================================================================
-#EXTINF:0 tvg-id="ESPN4.int" tvg-logo="" group-title="DEPORTES", ESPN 4 HD
+#EXTINF:0 tvg-id="ESPN4.int" tvg-logo="https://foros.forounivers.com/uploads/monthly_2024_02/large.ESPN4.png.eb49e6eecab0c1a9e2c758279e2a6784.png" group-title="DEPORTES", ESPN 4 HD
 http://181.78.8.199:8000/play/a09b/index.m3u8
-#EXTINF:0 tvg-id="ESPN2.int" tvg-logo="" group-title="DEPORTES", ESPN 2 HD
+#EXTINF:0 tvg-id="ESPN2.int" tvg-logo="https://p1.hiclipart.com/preview/52/176/876/tv-channel-icons-pack-espn2-color-png-icon-thumbnail.jpg" group-title="DEPORTES", ESPN 2 HD
 http://181.78.8.199:8000/play/a0b2/index.m3u8
-#EXTINF:0 tvg-id="ESPN3.int" tvg-logo="" group-title="DEPORTES", ESPN 3 HD
+#EXTINF:0 tvg-id="ESPN3.int" tvg-logo="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi58JLKI2bUlfvAAxBTUs9qcZjRjqelXSb9q73c-KvDU1tkE0d6x4cLaenyJaLoBXDLcR6xY7ckqlBsGKdXbTp_cV5_u96Phldc6-socCUBTudasn6li5LnGX9-JJ9hjyZuO6Pp03QXNw/s1600/ESPN_3.png" group-title="DEPORTES", ESPN 3 HD
 http://181.78.8.199:8000/play/a0b3/index.m3u8
-#EXTINF:0 tvg-id="ESPN6.int" tvg-logo="" group-title="DEPORTES", ESPN 6 HD
+#EXTINF:0 tvg-id="ESPN6.int" tvg-logo="https://images.seeklogo.com/logo-png/52/2/espn-6-logo-png_seeklogo-522717.png" group-title="DEPORTES", ESPN 6 HD
 http://181.78.8.199:8000/play/a07g/index.m3u8
-#EXTINF:0 tvg-id="ESPN.int" tvg-logo="https://w7.pngwing.com/pngs/2/447/png-transparent-espn-logo-television-the-walt-disney-company-news-presenter-golf-miscellaneous-television-company-thumbnail.png" group-title="DEPORTES", ESPN HD
+#EXTINF:0 tvg-id="ESPN.int" tvg-logo="https://www.digitalvideosystems.net/wp-content/uploads/2018/02/ESPN-Logo.png" group-title="DEPORTES", ESPN HD
 http://181.78.8.199:8000/play/a08y/index.m3u8
 #EXTINF:0 tvg-id="A&E.int" tvg-logo="https://w7.pngwing.com/pngs/318/371/png-transparent-espn-television-espn-extra-high-definition-video-lam-radio-hd-television-text-logo-thumbnail.png" group-title="DEPORTES", ESPN HD
 http://181.189.243.251:8000/play/a0un/index.m3u8
