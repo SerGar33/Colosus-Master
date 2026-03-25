@@ -93,9 +93,9 @@ https://list.iptvcat.com/my_list/s/8d1b64e9b1312c57fca31193a9a29f1c.m3u8
 http://45.238.54.67:8000/play/b02e/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="GENERAL",AMERICA TV
 http://45.238.54.67:8000/play/a00i/index.m3u8
-#EXTINF:0 tvg-id="ANTENA3.es" tvg-logo="https://1000marcas.net/wp-content/uploads/2021/04/Antena-3-logo.png" group-title="GENERAL", ANTENA 3
+#EXTINF:0 tvg-id="ANTENA3.es" tvg-logo="https://static.wikia.nocookie.net/logofan/images/e/ed/A3cr.png/revision/latest/scale-to-width-down/250?cb=20241120001050&path-prefix=es" group-title="GENERAL", ANTENA 3
 http://190.0.241.181:8000/play/a0aj/index.m3u8
-#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_Canal_13_200_8.png/624px-Logo_Canal_13_200_8.png" group-title="GENERAL", EL 13 ARGENTINA
+#EXTINF:-1  tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/ec/Logo_Canal_13_200_8.png" group-title="GENERAL", EL 13 ARGENTINA
 http://45.238.54.67:8000/play/b02f/index.m3u8
 #EXTINF:0 tvg-id="SUN.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sun_Channel_Logo_2022.webp/500px-Sun_Channel_Logo_2022.webp.png" group-title="GENERAL", SUN CHANNEL
 http://190.0.241.181:8000/play/a0cu/index.m3u8
