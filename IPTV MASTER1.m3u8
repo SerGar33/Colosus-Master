@@ -86,7 +86,7 @@ http://181.78.8.199:8000/play/a0az/index.m3u8
 #EXTINF:-1 tvg-id="CARACOL.col" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Caracol_TV_HD_logo.svg/2048px-Caracol_TV_HD_logo.svg.png" group-title="NOVELAS",CARACOL
 http://190.60.52.28:5001/play/a0gk/index.m3u8
 #EXTINF:-1 tvg-id="TVN.cl" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Television-Nacional-de-Chile-Logo-2016.png" group-title="GENERAL",TVN
-https://marine2.miplay.cl/tvnchile/tracks-v1a1/mono.m3u8
+https://190.60.52.28:5001/play/a08y/index.m3u8
 #EXTINF:-1 tvg-id="Chilevision.cl" tvg-logo="https://iconape.com/wp-content/png_logo_vector/chilevision-logo.png" group-title="GENERAL",CHILEVISION
 https://list.iptvcat.com/my_list/s/8d1b64e9b1312c57fca31193a9a29f1c.m3u8
 #EXTINF:-1 tvg-id="Telefe.arg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ac/Telefe.png" group-title="GENERAL",TELEFE
@@ -138,13 +138,13 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be
 #EXTINF:0 tvg-id="BABY TV.int" tvg-logo="https://i.pinimg.com/originals/0b/7a/e2/0b7ae2c03d70e4b7059b0358719a7ffa.png" group-title="KIDS", BABY TV
 http://89.117.146.57/televall/YbVVqpeaWU/56.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.int" tvg-logo="https://pbs.twimg.com/profile_images/1740338476736815104/vJGKgOJe_400x400.jpg" group-title="KIDS",DISNEY CHANNEL
-http://89.117.146.57/televall/YbVVqpeaWU/60.m3u8
+http://190.60.52.28:5001/play/a0d1/index.m3u8
 #EXTINF:0tvg-id="TEEN NICK.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3c/TeenNick_2023_Outlined_Logo.png" group-title="KIDS", TEEN NICK HD
 http://181.189.243.251:8000/play/a0q1/index.m3u8
 #EXTINF:0 tvg-id="ZOOMOO.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ZooMoo_logo.svg/2438px-ZooMoo_logo.svg.png" group-title="KIDS", ZOOMOO
-http://181.189.243.251:8000/play/a0nt/index.m3u8
+http://181.189.142.237:40000/play/a036
 #EXTINF:0 tvg-id="DISNEY JR.int" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/01/Disney-Junior-Logo.png" group-title="KIDS", DISNEY JR
-http://89.117.146.57/televall/YbVVqpeaWU/61.m3u8
+http://190.60.52.28:5001/play/a0c3/index.m3u8
 #EXTINF:0 tvg-id="CARTOON NETWORK.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="KIDS", CARTOON NETWORK
 http://181.78.8.199:8000/play/a095/index.m3u8
 #EXTINF:0 tvg-id="CARTOONITO.int" tvg-logo="https://static.wikia.nocookie.net/lu-and-the-bally-bunch/images/7/7f/Cartoonito.webp" group-title="KIDS", CARTOONITO
@@ -210,7 +210,7 @@ https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RCN Xtra.col" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Rcn-xtra_2.png" group-title="NOVELAS",RCN EXTRA
 https://latv-rcn-xtra-1-mx.tcl.wurl.tv/playlist.m3u8
 #EXTINF:0 tvg-id="ATRES SERIES.es" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/b/b7/Atreseries_%282015-.n.v.%29.png" group-title="NOVELAS", ATRES SERIES
-http://190.0.241.181:8000/play/a0ct/index.m3u8
+http://181.189.142.237:40000/play/a03e
 #EXTINF:0 tvg-id=TVE.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/702px-Logo_TVE-Internacional.svg.png" group-title="NOVELAS", TVE SD
 http://45.238.54.67:8000/play/b02u/index.m3u8
 #EXTINF:0 tvg-id="TNT NOVELAS.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_TNT_Novelas.png/475px-Logo_TNT_Novelas.png" group-title="NOVELAS", TNT NOVELAS
@@ -243,23 +243,24 @@ http://181.78.8.199:8000/play/a0b2/index.m3u8
 http://181.78.8.199:8000/play/a0b3/index.m3u8
 #EXTINF:0 tvg-id="ESPN6.int" tvg-logo="https://images.seeklogo.com/logo-png/52/2/espn-6-logo-png_seeklogo-522717.png" group-title="DEPORTES", ESPN 6 HD
 http://181.78.8.199:8000/play/a07g/index.m3u8
-#EXTINF:0 tvg-id="ESPN.int" tvg-logo="https://www.digitalvideosystems.net/wp-content/uploads/2018/02/ESPN-Logo.png" group-title="DEPORTES", ESPN HD
-http://181.78.8.199:8000/play/a08y/index.m3u8
-#EXTINF:0 tvg-id="A&E.int" tvg-logo="https://w7.pngwing.com/pngs/318/371/png-transparent-espn-television-espn-extra-high-definition-video-lam-radio-hd-television-text-logo-thumbnail.png" group-title="DEPORTES", ESPN HD
+#EXTINF:0 tvg-id="ESPN.int" tvg-logo="https://www.digitalvideosystems.net/wp-content/uploads/2018/02/ESPN-Logo.png" group-title="DEPORTES", ESPN 
+http://190.60.52.28:5001/play/a0d7/index.m3u8
+#EXTINF:0 tvg-id="ESPNHD.int" tvg-logo="https://w7.pngwing.com/pngs/318/371/png-transparent-espn-television-espn-extra-high-definition-video-lam-radio-hd-television-text-logo-thumbnail.png" group-title="DEPORTES", ESPN HD
 http://181.189.243.251:8000/play/a0un/index.m3u8
 #EXTINF:0 tvg-id="TYC.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/777px-TyC_Sports_logo.svg.png" group-title="DEPORTES", TYC
 http://181.189.243.251:8000/play/a0uk/index.m3u8
 #EXTINF:0 tvg-id="FOXSPORT 3.int" tvg-logo="" group-title="DEPORTES", FOX SPORT 3
 http://181.189.243.251:8000/play/a0pm/index.m3u8
 #EXTINF:0 tvg-id="FOX SPORTS3.int" tvg-logo="" group-title="DEPORTES", FOX SPORTS 3 HD
-http://181.189.243.251:8000/play/a0t7/index.m3u8
+http://181.189.142.237:40000/play/a07u
 #EXTINF:0 tvg-id="FUTV.int" tvg-logo="" group-title="DEPORTES", FUTV HD
-http://181.189.243.251:8000/play/a0t3/index.m3u8
+http://181.189.142.237:40000/play/a06q
 #EXTINF:-1 tvg-logo="http://x.playerlatino.live/http://x.playerlatino.live/nba.png" group-title="DEPORTES", NBA
 https://bgtv.xyz/play/2-802.php?idch=838
-#EXTINF:0 tvg-id="LATINAMERICA SPORT.int" tvg-logo="" group-title="DEPORTES", LATIN AMERICA SPORT
-http://181.189.243.251:8000/play/a0rd/index.m3u8
-
+#EXTINF:0 tvg-id="LATINOAMERICA SPORT.int" tvg-logo="" group-title="DEPORTES", LATIN AMERICA SPORT
+http://181.189.142.237:40000/play/a05h
+#EXTINF:0 tvg-id="GOLTV.EC" tvg-logo="https://iconape.com/wp-content/png_logo_vector/gol-tv-logo.png" group-title="DEPORTES", GOL TV EC
+201.219.193.210:3002/play/a0t0
 =============================================================================PELICULAS/SERIES===========================================================================================
 #EXTINF:-1 tvg-id="Mytime.es" tvg-logo="https://images.samsung.com/is/image/samsung/assets/br/tvs/smart-tv/channel-list/MyTime_Movie_Network_476x476circle.png" group-title="PELICULAS & SERIES", MYTIME
 https://appletree-mytimespain-rakuten.amagi.tv/1080p/index.m3u8
@@ -374,4 +375,4 @@ http://178.219.128.68:64888/MTVHD
 #EXTINF:0 tvg-id="EXA.int" tvg-logo="https://exa.tv/wp-content/themes/Exatv/img/logo_principal.png" group-title="MUSICA", EXA TV
 http://45.5.119.43:4000/play/a0hk/index.m3u8
 #EXTINF:0 tvg-id="HTV.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Htv_logo.svg/100px-Htv_logo.svg.png" group-title="MUSICA", HTV
-https://cors-proxy.cooks.fyi/https://streamer1.nexgen.bz/HTV/index.m3u8
+https://190.60.52.28:5001/play/a0e6/index.m3u8
