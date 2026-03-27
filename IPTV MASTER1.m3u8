@@ -82,9 +82,9 @@ http://45.5.119.43:4000/play/a05l/index.m3u8
 #EXTINF:0 tvg-id="COMEDY CENTRAL.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/Comedy_Central_Logo_2011_vertikal.png" group-title="GENERAL", COMEDY CENTRAL HD
 http://45.5.119.43:4000/play/a0hy/index.m3u8
 #EXTINF:-1 tvg-id="RCN.col" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f0/RCN_NUESTRA_TELE.png" group-title="NOVELAS",RCN
-181.78.8.199:8000/play/a0az/index.m3u8
+http://181.78.8.199:8000/play/a0az/index.m3u8
 #EXTINF:-1 tvg-id="CARACOL.col" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Caracol_TV_HD_logo.svg/2048px-Caracol_TV_HD_logo.svg.png" group-title="NOVELAS",CARACOL
-181.78.8.199:8000/play/a08s/index.m3u8
+http://190.60.52.28:5001/play/a0gk/index.m3u8
 #EXTINF:-1 tvg-id="TVN.cl" tvg-logo="https://logos-world.net/wp-content/uploads/2023/04/Television-Nacional-de-Chile-Logo-2016.png" group-title="GENERAL",TVN
 https://marine2.miplay.cl/tvnchile/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Chilevision.cl" tvg-logo="https://iconape.com/wp-content/png_logo_vector/chilevision-logo.png" group-title="GENERAL",CHILEVISION
@@ -214,7 +214,7 @@ http://190.0.241.181:8000/play/a0ct/index.m3u8
 #EXTINF:0 tvg-id=TVE.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Logo_TVE-Internacional.svg/702px-Logo_TVE-Internacional.svg.png" group-title="NOVELAS", TVE SD
 http://45.238.54.67:8000/play/b02u/index.m3u8
 #EXTINF:0 tvg-id="TNT NOVELAS.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_TNT_Novelas.png/475px-Logo_TNT_Novelas.png" group-title="NOVELAS", TNT NOVELAS
-http://190.0.241.181:8000/play/a0c0/index.m3u8
+http://181.189.159.131:8000/play/a0g9/index.m3u8
 #EXTINF:0 tvg-id="PASIONES.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Pasiones_Tv_logo.svg/1280px-Pasiones_Tv_logo.svg.png" group-title="NOVELAS", PASIONES HD
 http://190.0.241.181:8000/play/a091/index.m3u8
 #EXTINF:0 tvg-id="KANALD.int" tvg-logo="https://kanalddrama.com/fav.png" group-title="NOVELAS", KANAL D DRAMA
@@ -222,9 +222,9 @@ https://amg01602-themahqfrance-vivekanald-samsungspain-uu2zn.amagi.tv/playlist/a
 #EXTINF:0 tvg-id="RCNNOVELAS.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/RCN_Novelas_logo_2019.png/793px-RCN_Novelas_logo_2019.png" group-title="NOVELAS", RCN NOVELAS
 http://181.189.243.251:8000/play/a0r5/index.m3u8
 #EXTINF:0 tvg-id="EURO.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/EURO_LOGO_FINALE.png" group-title="NOVELAS", EURO CHANNEL
-http://181.189.243.251:8000/play/a0r6/index.m3u8
+http://45.173.75.4:2061/play/a07v
 #EXTINF:0 tvg-id="STAR TVE.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/08/Star-TVE-logo.png" group-title="NOVELAS", STAR TVE HD
-http://181.189.243.251:8000/play/a0qf/index.m3u8
+http://181.189.159.131:8000/play/a0h0/index.m3u8
 #EXTINF:0 tvg-id="HOLA!.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/%C2%A1HOLA%21TVlogo.jpg/800px-%C2%A1HOLA%21TVlogo.jpg" group-title="NOVELAS", HOLA! TV HD
 http://181.189.243.251:8000/play/a0st/index.m3u8
 #EXTINF:0 tvg-id="HOLA!TV.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/%C2%A1HOLA%21TVlogo.jpg/800px-%C2%A1HOLA%21TVlogo.jpg" group-title="NOVELAS", HOLA!TV
