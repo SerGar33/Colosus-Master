@@ -137,18 +137,18 @@ http://51.222.85.85:81/hls/loco/index.m3u8?PlaylistM3UCL
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/be6f9eac-280e-4748-b866-2eb2463c1844/manifest.m3u8
 #EXTINF:0 tvg-id="BABY TV.int" tvg-logo="https://i.pinimg.com/originals/0b/7a/e2/0b7ae2c03d70e4b7059b0358719a7ffa.png" group-title="KIDS", BABY TV
 http://89.117.146.57/televall/YbVVqpeaWU/56.m3u8
-#EXTINF:-1 tvg-id="DisneyChannel.int" tvg-logo="https://pbs.twimg.com/profile_images/1740338476736815104/vJGKgOJe_400x400.jpg" group-title="KIDS",DISNEY CHANNEL
+#EXTINF:-1 tvg-id="DisneyChannel.int" tvg-logo="https://e7.pngegg.com/pngimages/139/203/png-clipart-disney-channel-the-walt-disney-company-logo-television-channel-disney-junior-logo-television-blue.png" group-title="KIDS",DISNEY CHANNEL
 http://190.60.52.28:5001/play/a0d1/index.m3u8
 #EXTINF:0tvg-id="TEEN NICK.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3c/TeenNick_2023_Outlined_Logo.png" group-title="KIDS", TEEN NICK HD
 http://181.189.243.251:8000/play/a0q1/index.m3u8
-#EXTINF:0 tvg-id="ZOOMOO.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/ZooMoo_logo.svg/2438px-ZooMoo_logo.svg.png" group-title="KIDS", ZOOMOO
+#EXTINF:0 tvg-id="ZOOMOO.int" tvg-logo="https://mir-s3-cdn-cf.behance.net/projects/404/03549e27277257.5584ec82d8cba.png" group-title="KIDS", ZOOMOO
 http://181.189.142.237:40000/play/a036
 #EXTINF:0 tvg-id="DISNEY JR.int" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/01/Disney-Junior-Logo.png" group-title="KIDS", DISNEY JR
-http://190.60.52.28:5001/play/a0c3/index.m3u8
-#EXTINF:0 tvg-id="CARTOON NETWORK.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/fe/CARTOON_NETWORK_logo.png" group-title="KIDS", CARTOON NETWORK
+http://45.172.92.111:8000/play/a00k/index.m3u8
+#EXTINF:0 tvg-id="CARTOON NETWORK.int" tvg-logo="https://logoeps.com/wp-content/uploads/2013/01/cartoon-network-logo-vector.png" group-title="KIDS", CARTOON NETWORK
 http://181.78.8.199:8000/play/a095/index.m3u8
 #EXTINF:0 tvg-id="CARTOONITO.int" tvg-logo="https://static.wikia.nocookie.net/lu-and-the-bally-bunch/images/7/7f/Cartoonito.webp" group-title="KIDS", CARTOONITO
-https://bgtv.xyz/play/2-810.php?idch=11
+https://45.172.92.111:8000/play/a00n/index.m3u8
 #EXTINF:0 tvg-id="DKIDS.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Discovery_Kids_%282009%29.png" group-title="KIDS", DISCOVERY KIDS HD
 http://190.111.16.106:40000/play/a03l/index.m3u8
 #EXTINF:0 tvg-id="NICKjr.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_%28outline%29.svg/220px-Nick_Jr._logo_2023_%28outline%29.svg.png" group-title="KIDS", NICK JR
@@ -202,7 +202,7 @@ http://89.117.146.57/televall/YbVVqpeaWU/39.m3u8
 #EXTINF:-1 tvg-id="Azteca Internacional.mex" tvg-logo="https://digitalcontent.prensariozone.com/wp-content/uploads/2021/10/Azteca_logo_trans_516x287.png" group-title="NOVELAS", MX: AZTECA INTERNACIONAL
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 #EXTINF:-1 tvg-id="Azteca Uno.mex" tvg-logo="https://i.pinimg.com/originals/49/59/2b/49592bc81f61aabfe7a002afd1225112.png" group-title="NOVELAS", AZTECA UNO
-https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index_5.m3u8
+https://45.172.92.111:8000/play/a001/index.m3u8
 #EXTINF:-1 tvg-id="TLNOVELAS.mex" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/Logo_tlnovelas_feb2019.png" group-title="NOVELAS",TLNOVELAS
 http://45.5.119.43:4000/play/a05k/index.m3u8
 #EXTINF:-1 tvg-id="RCN MAS.col" tvg-logo="https://rcn-images.ercdn.net//content/U/ie/2127/Logo.png" group-title="NOVELAS",RCN MAS
@@ -249,8 +249,8 @@ http://190.60.52.28:5001/play/a0d7/index.m3u8
 http://181.189.243.251:8000/play/a0un/index.m3u8
 #EXTINF:0 tvg-id="TYC.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/777px-TyC_Sports_logo.svg.png" group-title="DEPORTES", TYC
 http://181.189.243.251:8000/play/a0uk/index.m3u8
-#EXTINF:0 tvg-id="FOXSPORT 3.int" tvg-logo="" group-title="DEPORTES", FOX SPORT 3
-http://181.189.243.251:8000/play/a0pm/index.m3u8
+#EXTINF:0 tvg-id="FOXSPORT 1.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/Fox_sports_1_10s.png" group-title="DEPORTES", FOX SPORT 1 HD
+http://45.172.92.111:8000/play/a02m/index.m3u8
 #EXTINF:0 tvg-id="FOX SPORTS3.int" tvg-logo="" group-title="DEPORTES", FOX SPORTS 3 HD
 http://181.189.142.237:40000/play/a07u
 #EXTINF:0 tvg-id="FUTV.int" tvg-logo="" group-title="DEPORTES", FUTV HD
@@ -260,7 +260,7 @@ https://bgtv.xyz/play/2-802.php?idch=838
 #EXTINF:0 tvg-id="LATINOAMERICA SPORT.int" tvg-logo="" group-title="DEPORTES", LATIN AMERICA SPORT
 http://181.189.142.237:40000/play/a05h
 #EXTINF:0 tvg-id="GOLTV.EC" tvg-logo="https://iconape.com/wp-content/png_logo_vector/gol-tv-logo.png" group-title="DEPORTES", GOL TV EC
-201.219.193.210:3002/play/a0t0
+http://201.219.193.210:3002/play/a0t0
 =============================================================================PELICULAS/SERIES===========================================================================================
 #EXTINF:-1 tvg-id="Mytime.es" tvg-logo="https://images.samsung.com/is/image/samsung/assets/br/tvs/smart-tv/channel-list/MyTime_Movie_Network_476x476circle.png" group-title="PELICULAS & SERIES", MYTIME
 https://appletree-mytimespain-rakuten.amagi.tv/1080p/index.m3u8
@@ -281,9 +281,9 @@ http://181.189.243.251:8000/play/a0qa/index.m3u8
 #EXTINF:0 tvg-id="FILM&ARTS.int" tvg-logo="https://fa-media.s3.amazonaws.com/downloads/set_web_logo_picture-/l5mbaxk7qo_fa-logo.png" group-title="PELICULAS & SERIES", FILM & ARTS HD
 http://181.189.243.251:8000/play/a0q6/index.m3u8
 #EXTINF:0 tvg-id="GOLDEN.int" tvg-logo="https://static.wixstatic.com/media/799a49_724fedaeb4044fb78825e9da6645ec6c~mv2.png" group-title="PELICULAS & SERIES", GOLDEN
-http://190.0.241.181:8000/play/a04u/index.m3u8
+http://45.172.92.111:8000/play/a01a/index.m3u8
 #EXTINF:0 tvg-id="GOLD PREMIERE 2.int" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/90/Golden_Premier_2_2020.png" group-title="PELICULAS & SERIES", GOLDEN EDGE 2 HD
-http://190.0.241.181:8000/play/a0bq/index.m3u8
+http://45.172.92.111:8000/play/a019/index.m3u8
 #EXTINF:0 tvg-id="GOLDEN PREMIERE.int" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/5b/Golden_premier.png" group-title="PELICULAS & SERIES", GOLDEN PREMIERE HD
 http://181.189.243.251:8000/play/a0oc/index.m3u8
 #EXTINF:0 tvg-id="HBO FAMILY.int" tvg-logo="https://static.wikia.nocookie.net/dreamlogos/images/2/2a/HBO_Family.svg.png" group-title="PELICULAS & SERIES", HBO FAMILY HD
