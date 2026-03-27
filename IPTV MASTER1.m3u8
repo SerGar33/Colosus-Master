@@ -11,12 +11,12 @@ https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb70
 https://jireh-4-hls-video-us-isp.dps.live/hls-video/c54ac2799874375c81c1672abb700870537c5223/ecuavisa/ecuavisa.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTS.ec" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/13/Rts_logo.png" group-title="GENERAL",RTS
 https://d2qsan2ut81n2k.cloudfront.net/live/72a3661e-1019-45f8-af10-af59f6ef6222/ts:abr.m3u8
-#EXTINF:-1 tvg-id="Teleamazonas sierra.ec" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/512px-Teleamazonas_Logo.png" group-title="GENERAL",Teleamazonas Sierra
+#EXTINF:-1 tvg-id="Teleamazonas sierra.ec" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/Logoteleamazonas.png" group-title="GENERAL",Teleamazonas Sierra
 https://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/fd4ab346-b4e3-4628-abf0-b5a1bc192428.m3u8
-#EXTINF:-1 tvg-id="Teleamazonas costa.ec" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/512px-Teleamazonas_Logo.png" group-title="GENERAL",Teleamazonas Costa
+#EXTINF:-1 tvg-id="Teleamazonas costa.ec" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e6/Logoteleamazonas.png" group-title="GENERAL",Teleamazonas Costa
 https://teleamazonas-live.cdn.vustreams.com/live/b545dc57-91af-4f6b-bac7-8d9337166407/live.isml/b545dc57-91af-4f6b-bac7-8d9337166407.m3u8
-#EXTINF:-1 tvg-id="Gamavision.ec" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Logotipo_como_GamaTV_2008.png" group-title="GENERAL",GAMAVISION
-https://stream.esradioecuador.com/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Gamavision.ec" tvg-logo="https://images.seeklogo.com/logo-png/61/2/gama-tv-fondo-rojo-logo-png_seeklogo-611746.png" group-title="GENERAL",GAMAVISION
+http://38.44.109.41:8003/play/a02n/index.m3u8
 #EXTINF:-1 tvg-id="Tc Television SD.ec" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/33/TC_Televisi%C3%B3n_new_logo_2020.png" group-title="GENERAL",TC TV
 http://205.235.6.29:8000/play/a0m8/index.m3u8
 #EXTINF:-1 tvg-id="Tc Television HD.ec" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/33/TC_Televisi%C3%B3n_new_logo_2020.png" group-title="GENERAL",TC TV HD
