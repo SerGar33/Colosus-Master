@@ -251,8 +251,8 @@ http://181.189.243.251:8000/play/a0un/index.m3u8
 http://181.189.243.251:8000/play/a0uk/index.m3u8
 #EXTINF:0 tvg-id="FOXSPORT 1.int" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ad/Fox_sports_1_10s.png" group-title="DEPORTES", FOX SPORT 1 HD
 http://45.172.92.111:8000/play/a02m/index.m3u8
-#EXTINF:0 tvg-id="FOX SPORTS3.int" tvg-logo="" group-title="DEPORTES", FOX SPORTS 3 HD
-http://181.189.142.237:40000/play/a07u
+#EXTINF:0 tvg-id="FOX SPORTS3.int" tvg-logo="https://images.seeklogo.com/logo-png/51/2/fox-sports-3-logo-png_seeklogo-510012.png" group-title="DEPORTES", FOX SPORTS 3 HD
+https://tyg2mnl9.fubohd.com/foxsports3/mono.m3u8?token=f0d1c5ef90b52e0908dbdbdbbdebad979df3e1f9-ba-1774671094-1774653094
 #EXTINF:0 tvg-id="FUTV.int" tvg-logo="" group-title="DEPORTES", FUTV HD
 http://181.189.142.237:40000/play/a06q
 #EXTINF:-1 tvg-logo="http://x.playerlatino.live/http://x.playerlatino.live/nba.png" group-title="DEPORTES", NBA
@@ -261,6 +261,8 @@ https://bgtv.xyz/play/2-802.php?idch=838
 http://181.189.142.237:40000/play/a05h
 #EXTINF:0 tvg-id="GOLTV.EC" tvg-logo="https://iconape.com/wp-content/png_logo_vector/gol-tv-logo.png" group-title="DEPORTES", GOL TV EC
 http://201.219.193.210:3002/play/a0t0
+#EXTINF:0 tvg-id="ECDF.EC" tvg-logo="https://static.elcanaldelfutbol.com/static/logo.png" group-title="DEPORTES", ECDF EC
+https://tyg2mnl9.fubohd.com/ecdf_ligapro/mono.m3u8?token=a8633207081885217904a9e054c15d43d250640a-38-1774670723-1774652723
 =============================================================================PELICULAS/SERIES===========================================================================================
 #EXTINF:-1 tvg-id="Mytime.es" tvg-logo="https://images.samsung.com/is/image/samsung/assets/br/tvs/smart-tv/channel-list/MyTime_Movie_Network_476x476circle.png" group-title="PELICULAS & SERIES", MYTIME
 https://appletree-mytimespain-rakuten.amagi.tv/1080p/index.m3u8
