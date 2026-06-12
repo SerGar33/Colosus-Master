@@ -20,7 +20,7 @@ http://27.50.12.147:8000/play/a01r/index.m3u8
 #EXTINF:-1 tvg-id="Tc Television SD.ec" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/33/TC_Televisi%C3%B3n_new_logo_2020.png" group-title="GENERAL",TC TV
 http://170.244.209.30:8000/play/a0uc/index.m3u8
 #EXTINF:-1 tvg-id="Tc Television HD.ec" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/33/TC_Televisi%C3%B3n_new_logo_2020.png" group-title="GENERAL",TC TV HD
-http://45.173.74.2:2010/play/a09y/index.m3u8
+http://181.119.185.32:8000/play/a005/index.m3u8?hls
 #EXTINF:-1 tvg-id="TVC.ec" tvg-logo="https://pbs.twimg.com/profile_images/1743008209671983104/fk4EJ9sF_400x400.jpg" group-title="GENERAL",TVC
 https://d2qsan2ut81n2k.cloudfront.net/live/19e86940-42cc-485e-80f4-89ae27c69f1b/ts:abr.m3u8
 #EXTINF:-1 tvg-id="Canelatv.pa" tvg-logo="https://play-lh.googleusercontent.com/nGSJiclhwDVCsZSRlniu24xUhtI30Q-c7ODuTQv7MK5uiaZkT0fbXaC-Tf49_lKwCzs=w600-h300-pc0xffffff-pd" group-title="GENERAL",CANELA TV
