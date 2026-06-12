@@ -265,8 +265,10 @@ http://181.189.142.237:40000/play/a05h
 http://170.244.209.30:8000/play/a1h4/index.m3u8
 #EXTINF:0 tvg-id="ECDF.EC" tvg-logo="https://static.elcanaldelfutbol.com/static/logo.png" group-title="DEPORTES", ECDF EC
 http://170.244.209.30:8000/play/a1fc/index.m3u8
-#EXTINF:0 tvg-id="Dsports1.int" tvg-logo="https://static.elcanaldelfutbol.com/static/logo.png" group-title="DEPORTES", DSPORTS 1
-http://201.230.121.85:8000/play/a0yv/index.m3u8
+#EXTINF:0 tvg-id="Dsports1.int" tvg-logo="https://www.seekpng.com/png/full/223-2230029_directv-sports-2-logo.png" group-title="DEPORTES", DSPORTS 1
+http://190.108.93.180:8000/play/a054/index.m3u8
+#EXTINF:0 tvg-id="Dsports2.int" tvg-logo="https://www.seekpng.com/png/full/223-2230029_directv-sports-2-logo.png" group-title="DEPORTES", DSPORTS 2
+http://190.61.41.181:8000/play/a0r4/index.m3u8
 =============================================================================PELICULAS/SERIES===========================================================================================
 #EXTINF:-1 tvg-id="Mytime.es" tvg-logo="https://images.samsung.com/is/image/samsung/assets/br/tvs/smart-tv/channel-list/MyTime_Movie_Network_476x476circle.png" group-title="PELICULAS & SERIES", MYTIME
 https://appletree-mytimespain-rakuten.amagi.tv/1080p/index.m3u8
