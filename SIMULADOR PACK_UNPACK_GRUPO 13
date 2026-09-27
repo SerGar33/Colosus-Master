@@ -1,0 +1,417 @@
+import tkinter as tk
+import base64
+import random
+from PIL import Image, ImageTk
+from urllib.request import urlopen
+from io import BytesIO
+
+
+class SimuladorOSI:
+
+    def __init__(self, root):
+        self.root = root
+        self.root.title("Simulador OSI - Encapsulamiento y Desencapsulamiento")
+        self.root.geometry("1200x850")
+        self.root.configure(bg="#ffffff")
+
+        # ==========================================================
+        # ENCABEZADO CON LOGO
+        # ==========================================================
+
+        header_frame = tk.Frame(root, bg="#ffffff")
+        header_frame.pack(fill=tk.X, pady=10)
+
+        # URL corregida:
+        LOGO = ("https://envapress.com.ec/wp-content/uploads/2022/08/la-favorita.png")
+
+        try:
+            response = urlopen(LOGO, timeout=30)
+            img_data = response.read()
+
+            img = Image.open(BytesIO(img_data))
+            img = img.resize((180, 50))
+            logo = ImageTk.PhotoImage(img)
+
+            # Guardamos la referencia para evitar que desaparezca
+            self.logo = logo
+
+            tk.Label(
+                header_frame,
+                image=self.logo,
+                bg="#ffffff"
+            ).pack(side="left", padx=10)
+
+        except Exception as e:
+            print("No se pudo cargar el logo:", e)
+
+        tk.Label(
+            header_frame,
+            text="CORPORACIÓN FAVORITA",
+            font=("Arial", 18, "bold"),
+            bg="#ffffff",
+            fg="red"
+        ).pack(side="top", padx=10)
+
+        # ==========================================================
+        # NOTA TÉCNICA
+        # ==========================================================
+
+        info_text = (
+            "NOTA: El modelo OSI se lee del 7→1 en el Emisor "
+            "(encapsulamiento) y del 1→7 en el Receptor "
+            "(desencapsulamiento)."
+        )
+
+        tk.Label(
+            root,
+            text=info_text,
+            wraplength=1000,
+            font=("Arial", 10, "italic"),
+            bg="#FF0404",
+            fg="white"
+        ).pack(fill=tk.X, padx=40, pady=5)
+
+        # ==========================================================
+        # PANEL DE CONTROL
+        # ==========================================================
+
+        self.panel = tk.Frame(root, bg="#002147")
+        self.panel.pack(pady=10)
+
+        self.entrada = tk.Entry(
+            self.panel,
+            width=40,
+            font=("Arial", 11)
+        )
+
+        self.entrada.insert(
+            0,
+            "INVENTARIO BODEGAS_MEGAMAXI CEIBOS"
+        )
+
+        self.entrada.pack(
+            side=tk.LEFT,
+            padx=10
+        )
+
+        tk.Button(
+            self.panel,
+            text="📨ENVIAR​",
+            command=self.transmitir,
+            bg="#8e46f3",
+            fg="white",
+            width=12,
+            font=("Arial", 10, "bold")
+        ).pack(side=tk.BOTTOM, padx=5)
+
+        tk.Button(
+            self.panel,
+            text="🔄 ​RESET",
+            command=self.resetear,
+            bg="#6c757d",
+            fg="white",
+            width=12,
+            font=("Arial", 10, "bold")
+        ).pack(side=tk.LEFT, padx=5)
+
+        # ==========================================================
+        # CONTENEDOR PRINCIPAL
+        # ==========================================================
+
+        self.main_container = tk.Frame(
+            root,
+            bg="#ffffff"
+        )
+
+        self.main_container.pack(
+            fill=tk.BOTH,
+            expand=True,
+            padx=20
+        )
+
+        self.main_container.columnconfigure(0, weight=1)
+        self.main_container.columnconfigure(1, weight=0)
+        self.main_container.columnconfigure(2, weight=1)
+
+        # ==========================================================
+        # PC-A
+        # ==========================================================
+
+        self.frame_pca = tk.Frame(
+            self.main_container,
+            bg="#002147"
+        )
+
+        self.frame_pca.grid(
+            row=0,
+            column=0,
+            sticky="nsew"
+        )
+
+        tk.Label(
+            self.frame_pca,
+            text="PC-A (Encapsulamiento)",
+            bg="#002147",
+            fg="#FFCC00",
+            font=("Arial", 10, "bold")
+        ).pack()
+
+        self.consola_a = tk.Text(
+            self.frame_pca,
+            width=60,
+            height=22,
+            bg="#1a1a1a",
+            fg="#00ff00",
+            font=("Consolas", 9)
+        )
+
+        self.consola_a.pack(pady=5)
+
+        # ==========================================================
+        # CANAL
+        # ==========================================================
+
+        self.frame_canal = tk.Frame(
+            self.main_container,
+            bg="#FF0404"
+        )
+
+        self.frame_canal.grid(
+            row=0,
+            column=1,
+            padx=10
+        )
+
+        tk.Label(
+            self.frame_canal,
+            text="CANAL M/M/1",
+            bg="#002147",
+            fg="white",
+            font=("Arial", 9, "italic")
+        ).pack()
+
+        # ==========================================================
+        # PC-B
+        # ==========================================================
+
+        self.frame_pcb = tk.Frame(
+            self.main_container,
+            bg="#002147"
+        )
+
+        self.frame_pcb.grid(
+            row=0,
+            column=2,
+            sticky="nsew"
+        )
+
+        tk.Label(
+            self.frame_pcb,
+            text="PC-B (Desencapsulamiento)",
+            bg="#002147",
+            fg="#FFCC00",
+            font=("Arial", 10, "bold")
+        ).pack()
+
+        self.consola_b = tk.Text(
+            self.frame_pcb,
+            width=60,
+            height=22,
+            bg="#1a1a1a",
+            fg="#33ccff",
+            font=("Consolas", 9)
+        )
+
+        self.consola_b.pack(pady=5)
+
+        # ==========================================================
+        # CAPAS OSI
+        # ==========================================================
+
+        self.capas = [
+            "Aplicación",
+            "Presentación",
+            "Sesión",
+            "Transporte",
+            "Red",
+            "Enlace",
+            "Física"
+        ]
+
+    # ==============================================================
+    # CONSOLA A
+    # ==============================================================
+
+    def log_a(self, msg):
+        self.consola_a.insert(
+            tk.END,
+            msg + "\n"
+        )
+
+        self.consola_a.see(tk.END)
+
+    # ==============================================================
+    # CONSOLA B
+    # ==============================================================
+
+    def log_b(self, msg):
+        self.consola_b.insert(
+            tk.END,
+            msg + "\n"
+        )
+
+        self.consola_b.see(tk.END)
+
+    # ==============================================================
+    # RESET
+    # ==============================================================
+
+    def resetear(self):
+        self.consola_a.delete(
+            1.0,
+            tk.END
+        )
+
+        self.consola_b.delete(
+            1.0,
+            tk.END
+        )
+
+    # ==============================================================
+    # TRANSMITIR
+    # ==============================================================
+
+    def transmitir(self):
+
+        mensaje = self.entrada.get()
+
+        if not mensaje:
+            return
+
+        self.resetear()
+
+        self.data_pdu = mensaje
+
+        self.log_a(
+            ">>> Iniciando encapsulamiento en PC-A..."
+        )
+
+        self.root.after(
+            500,
+            self.encapsular,
+            0
+        )
+
+    # ==============================================================
+    # ENCAPSULAMIENTO
+    # ==============================================================
+
+    def encapsular(self, i):
+
+        if i < 7:
+
+            capa = self.capas[6 - i]
+
+            wq = random.uniform(
+                0.05,
+                0.2
+            )
+
+            self.log_a(
+                f"[PC-A] Capa {7-i} ({capa}) "
+                f"→ Header añadido (Wq={wq:.3f}s)"
+            )
+
+            # Capa de Presentación
+            if i == 1:
+
+                self.data_pdu = base64.b64encode(
+                    self.data_pdu.encode("utf-8")
+                ).decode("ascii")
+
+                self.log_a(
+                    "   >> Datos codificados en Base64"
+                )
+
+            self.root.after(
+                500,
+                self.encapsular,
+                i + 1
+            )
+
+        else:
+
+            self.log_a(
+                "\n>>> [CANAL] Transmitiendo bits..."
+            )
+
+            self.root.after(
+                1000,
+                self.desencapsular,
+                0
+            )
+
+    # ==============================================================
+    # DESENCAPSULAMIENTO
+    # ==============================================================
+
+    def desencapsular(self, i):
+
+        if i < 7:
+
+            capa = self.capas[i]
+
+            wq = random.uniform(
+                0.05,
+                0.2
+            )
+
+            self.log_b(
+                f"[PC-B] Capa {i+1} ({capa}) "
+                f"→ Trailer eliminado (Wq={wq:.3f}s)"
+            )
+
+            # Capa de Presentación
+            if i == 5:
+
+                self.data_pdu = base64.b64decode(
+                    self.data_pdu.encode("ascii")
+                ).decode("utf-8")
+
+                self.log_b(
+                    "   >> Datos decodificados desde Base64"
+                )
+
+            self.root.after(
+                500,
+                self.desencapsular,
+                i + 1
+            )
+
+        else:
+
+            self.log_b(
+                "\n" + "=" * 55
+            )
+
+            self.log_b(
+                f"ÉXITO: Mensaje reconstruido → "
+                f"{self.data_pdu}"
+            )
+
+            self.log_b(
+                "=" * 55
+            )
+
+
+# ==============================================================
+# PROGRAMA PRINCIPAL
+# ==============================================================
+
+if __name__ == "__main__":
+
+    root = tk.Tk()
+
+    app = SimuladorOSI(root)
+
+    root.mainloop()
